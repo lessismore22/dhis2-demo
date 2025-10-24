@@ -1,7 +1,7 @@
 import requests
 import json
 
-BASE_URL = "https://play.dhis2.org/40.0.0/api/"
+BASE_URL = "https://play.dhis2.org/stable-2-41-6"
 AUTH = ("admin", "district")
 
 data_element = {
