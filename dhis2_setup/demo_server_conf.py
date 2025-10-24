@@ -3,8 +3,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 BASE_URL = "https://play.dhis2.org/stable-2-41-6"
-USERNAME = "admin"
-PASSWORD = "district"
+AUTH = ("admin", "district")
 
 auth = HTTPBasicAuth(USERNAME, PASSWORD)
 headers = {"Content-Type": "application/json"}
